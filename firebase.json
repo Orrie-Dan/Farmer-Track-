@@ -1,1 +1,17 @@
-{"firestore":{"rules":"firestore.rules","indexes":"firestore.indexes.json"},"flutter":{"platforms":{"android":{"default":{"projectId":"farmtrack-fe711","appId":"1:437347114454:android:8118726ddc4a40b214d877","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"farmtrack-fe711","configurations":{"android":"1:437347114454:android:8118726ddc4a40b214d877","windows":"1:437347114454:web:dafc0a18b1305f6514d877"}}}}}}
+﻿{
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "YOUR_FIREBASE_PROJECT_ID",
+          "appId": "YOUR_ANDROID_APP_ID",
+          "fileOutput": "android/app/google-services.json"
+        }
+      }
+    }
+  }
+}
