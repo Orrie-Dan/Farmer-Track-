@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "437347114454",
+    "project_id": "farmtrack-fe711",
+    "storage_bucket": "farmtrack-fe711.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437347114454:android:8118726ddc4a40b214d877",
+        "android_client_info": {
+          "package_name": "com.farmtrack.farmer_track"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437347114454-m9j6m9j39of5sv6o075er24g5ihsvrll.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.farmtrack.farmer_track",
+            "certificate_hash": "61a4c7fbf45888127309dbd1dbac551e3f2c3b63"
+          }
+        },
+        {
+          "client_id": "437347114454-5pungqhkoi774rchncpcnpgpun17iv3h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFrODsVw5bcdcmVjB6rQy_sWWz2TJRzq0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "437347114454-5pungqhkoi774rchncpcnpgpun17iv3h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "437347114454-0bn60q6mu8nk4rclie9vsmkvp0bi3n8h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.farmtrack.farmerTrack"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
