@@ -1,4 +1,4 @@
-﻿# Firebase Setup Guide for FarmTrack (Flutter)
+# Firebase Setup Guide for FarmTrack (Flutter)
 
 Follow these steps to connect the **Flutter** FarmTrack app to Firebase. This guide targets Android, iOS, and desktop/web targets that the project configures via `lib/firebase_options.dart` — not a separate web-only stack.
 
@@ -289,4 +289,3 @@ The rules in **`firestore.rules`** enforce:
   - Sales must have positive quantity, price, and valid buyer/payment types
   - Harvests must have non-negative quantity
 - **Default deny** — Everything outside `/users/{uid}` is blocked
-

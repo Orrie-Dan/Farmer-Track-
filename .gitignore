@@ -18,10 +18,12 @@ migrate_working_dir/
 *.iws
 .idea/
 
-# VS Code (uncomment to ignore)
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
 #.vscode/
 
-# Flutter / Dart / Pub
+# Flutter/Dart/Pub related
 **/doc/api/
 **/ios/Flutter/.last_build_id
 .dart_tool/
@@ -31,26 +33,20 @@ migrate_working_dir/
 /build/
 /coverage/
 
-# Symbolication
+# Symbolication related
 app.*.symbols
 
-# Obfuscation
+# Obfuscation related
 app.*.map.json
 
-# Android
+# Android Studio will place build artifacts here
 /android/app/debug
 /android/app/profile
 /android/app/release
-**/android/local.properties
-android/.gradle/
-android/.kotlin/
 
-# iOS / macOS ephemeral
-**/ios/Flutter/ephemeral/
-**/ios/Pods/
-**/macos/Flutter/ephemeral/
-
-# Archives and duplicate source trees
+# Archives — do not commit zips; only source files and project folders belong in Git
 *.zip
 *.ZIP
+
+# Local duplicate export (sync source); not part of the app tree
 farmer-track-source-only/

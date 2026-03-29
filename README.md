@@ -1,4 +1,4 @@
-﻿# FarmTrack (`farmer_track`)
+# FarmTrack (`farmer_track`)
 
 Flutter app for tracking farm seasons, crops, expenses, harvests, and sales with **Firebase Authentication** and **Cloud Firestore**.
 
@@ -122,4 +122,3 @@ Deploy **`firestore.rules`** and **`firestore.indexes.json`** to your Firebase p
 
 - [Flutter documentation](https://docs.flutter.dev/)
 - [FlutterFire](https://firebase.flutter.dev/)
-
